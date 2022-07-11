@@ -1,0 +1,4 @@
+STEPS:
+ 1- create an input element + a SAVE input ;
+ 2- style the input forms;
+ 

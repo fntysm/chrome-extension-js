@@ -1,0 +1,11 @@
+body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0.03rem solid rgb(160, 95, 130);
+}
+button{
+    background-color: rgb(160, 95, 130);
+}
