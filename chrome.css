@@ -5,7 +5,24 @@ body {
 input{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 0.03rem solid rgb(160, 95, 130);
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: larger;
 }
 button{
     background-color: rgb(160, 95, 130);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+div{
+    background-color: aqua;
+    color: darkblue;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-weight: bold;
 }

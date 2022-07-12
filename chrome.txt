@@ -1,4 +1,4 @@
 STEPS:
  1- create an input element + a SAVE input ;
  2- style the input forms;
- 
+ 3- make the button work with onclick;
