@@ -17,12 +17,3 @@ button{
     padding: 10px 20px;
     font-weight: bold;
 }
-div{
-    background-color: aqua;
-    color: darkblue;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    font-weight: bold;
-}
