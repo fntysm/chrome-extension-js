@@ -1,9 +1,6 @@
 const save = document.getElementById("input-btn");
 const deleteBtn = document.getElementById("delete-btn");
 const tabBtn = document.getElementById("tab-btn");
-const tabs = [
-    {  url: "https://github.com/fntysm" }
-]
 let myLinks = []; 
 const alink = JSON.parse(localStorage.getItem("myLinks"));
 save.addEventListener("mouseout",function(){
@@ -44,7 +41,9 @@ deleteBtn.addEventListener("click",function(){
 })
 
 tabBtn.addEventListener("click",function(){
-    myLinks.push(tabs[0].url)
-    localStorage.setItem("myLinks", JSON.stringify(myLinks));
-    renderLinks(myLinks);      
+    chrome.tabs.query({active : true, currentWindow : true},function(tabs){
+        myLinks.push(tabs[0].url)
+        localStorage.setItem("myLinks", JSON.stringify(myLinks));
+        renderLinks(myLinks); 
+    })     
 })

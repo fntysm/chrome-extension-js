@@ -5,5 +5,8 @@
     "action":{
         "default_popup":"chrome.html",
         "default_icon":"chrome.png"
-    }
+    },
+    "permission":[ 
+        "tabs"
+    ]
 }
