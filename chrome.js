@@ -9,7 +9,6 @@ let alink = JSON.parse(localStorage.getItem("myLinks"));
 save.addEventListener("click",function(){
     let inputEl = document.getElementById("input-elt");
     save.innerHTML = "INPUT SAVED";
-    save.style.boxShadow= "20px";
     myLinks.push(inputEl.value);
     inputEl.value = "";
     localStorage.setItem("myLinks", JSON.stringify(myLinks));
