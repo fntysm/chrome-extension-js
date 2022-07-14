@@ -8,3 +8,5 @@ STEPS:
  7- prepare the deployement to get the app out in the chrome browser (the json file)
  8- deploy the chrome extension
  9- setting links into local storage
+
+ // hopefully not to forget to comment the javascript file 
