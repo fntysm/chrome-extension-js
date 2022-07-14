@@ -1,6 +1,7 @@
 body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 input{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -16,4 +17,14 @@ button{
     color: aliceblue;
     padding: 10px 20px;
     font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+li{
+   margin-bottom: 0.5rem;  
+}
+li a{
+    color: palevioletred;
 }

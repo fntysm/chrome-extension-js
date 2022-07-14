@@ -5,4 +5,23 @@ STEPS:
  4- build the bases to save the input data;
  5- push the links entered from the input area into myLinks array, right when the input button is clicked
  6- constitute the render function
+ 7- prepare the deployement to get the app out in the chrome browser
+
+version”:”0.2.0”,  // launch.json
+
+“configurations”:[
+
+ {
+
+“type”:”chrome”, 
+
+“request”:”launch” ,
+
+“name”:”Launch Chrome against localhost”,
+
+“url”:”http://localhost:8080” ,
+
+“webRoot”:”${workspaceFolder}” 
+
+}]
  
