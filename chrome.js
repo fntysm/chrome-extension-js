@@ -3,6 +3,7 @@ const deleteBtn = document.getElementById("delete-btn");
 const tabBtn = document.getElementById("tab-btn");
 let myLinks = []; 
 const alink = JSON.parse(localStorage.getItem("myLinks"));
+
 save.addEventListener("mouseout",function(){
     save.innerHTML = "SAVE INPUT"
 })
