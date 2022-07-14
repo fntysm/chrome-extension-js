@@ -5,16 +5,18 @@ save.addEventListener("mouseout",function(){
 })
 
 let myLinks = [];
+let alink = JSON.parse(localStorage.getItem("myLinks"));
 save.addEventListener("click",function(){
     let inputEl = document.getElementById("input-elt");
-    let listItems = "";
     save.innerHTML = "INPUT SAVED";
-    save.style.border = "5px solid navy";
+    save.style.boxShadow= "20px";
     myLinks.push(inputEl.value);
-    renderLinks(myLinks,listItems);
     inputEl.value = "";
+    localStorage.setItem("myLinks", JSON.stringify(myLinks));
+    renderLinks(myLinks);
 })
-function renderLinks(myLinks,listItems){
+function renderLinks(myLinks){
+    let listItems = "";
     let ulEl = document.getElementById("ulEl");
     for(let i=0;i<myLinks.length;i++){
     listItems += `
@@ -23,4 +25,8 @@ function renderLinks(myLinks,listItems){
     </li>`;
      }
     ulEl.innerHTML = listItems;
+}
+if(alink){
+    myLinks = alink;
+    renderLinks(myLinks);
 }

@@ -1,0 +1,10 @@
+STEPS:
+ 1- create an input element + a SAVE input ;
+ 2- style the input forms;
+ 3- make the button work with onclick;
+ 4- build the bases to save the input data;
+ 5- push the links entered from the input area into myLinks array, right when the input button is clicked
+ 6- constitute the render function
+ 7- prepare the deployement to get the app out in the chrome browser (the json file)
+ 8- deploy the chrome extension
+ 9- setting links into local storage

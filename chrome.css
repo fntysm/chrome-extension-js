@@ -16,7 +16,12 @@ button{
     background-color: rgb(160, 95, 130);
     color: aliceblue;
     padding: 10px 20px;
+    border: 1px solid black;
     font-weight: bold;
+}
+#delete-btn{
+    background-color: aliceblue;
+    color: rgb(160, 95, 130);
 }
 ul{
     list-style-type: none;
