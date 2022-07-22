@@ -27,7 +27,7 @@ const renderInputText = (myLinks) => {
     for(let i=0;i<myLinks.length;i++){
     listItems += `
     <li>
-    <h3 target='_blank'> ${myLinks[i]} </h3>
+    <h1 target='_blank'> ${myLinks[i]} </h1>
     </li>`;
      }
     ulEl.innerHTML = listItems;
